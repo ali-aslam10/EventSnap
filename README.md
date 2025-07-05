@@ -91,10 +91,3 @@ The dataset used in testing is available here:
 - Embeddings are stored per event using Pickle files and can be reused for faster matching.
 
 ---
-
-
----
-
-## 📝 License
-
-This project is for **educational and academic purposes only**. For commercial or production-level use, please seek permission.
