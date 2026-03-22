@@ -1,15 +1,28 @@
 # 📸 EventSnap – Face Recognition-Based Event Photo Retrieval
 
-**EventSnap** is a Google Colab-compatible notebook that enables users to automatically detect, enhance, and match faces in event photos using **InsightFace** and **GFPGAN**. It's designed to help participants retrieve their photos by simply uploading a reference image.
+**EventSnap** is a Google Colab-compatible notebook that enables users to automatically detect, enhance, and match faces in event photos deep learning.
+
+It helps event participants quickly retrieve their photos by simply uploading a reference image.
+
+---
+
+## 🚀 Model Variant: EventSnap_L
+
+**EventSnap_L** is the core pipeline used in this project, combining:
+
+- 🔍 **Face Detection & Recognition**: InsightFace (`buffalo_l`)
+- 🧖‍♂️ **Face Enhancement**: GFPGAN
+- 🧠 **Face Matching**: Cosine similarity on embeddings
 
 ---
 
 ## 🎯 Project Highlights
 
-- 🔍 **Face Detection & Recognition** with InsightFace (`buffalo_l`)
-- 🧖‍♂️ **Face Enhancement** using GFPGAN for low-resolution faces
+- 🔍 High-accuracy **face detection & recognition** using `buffalo_l`
+- 🧖‍♂️ Automatic **face enhancement** for low-resolution faces
 - 🗃️ **Event-wise embedding storage** using Pickle
-- 📥 **Participant image matching** using cosine similarity
+- 📥 Fast **participant image matching** via cosine similarity
+- ⚡ Optimized pipeline (**EventSnap_L**) for better results
 - ✅ Fully executable in **Google Colab**
 - 📽️ Includes a full working **demo video**
 
@@ -18,10 +31,10 @@
 ## 🧠 Technologies Used
 
 - **Python 3.11**
-- [InsightFace](https://github.com/deepinsight/insightface)
-- [GFPGAN](https://github.com/TencentARC/GFPGAN)
+- InsightFace (`buffalo_l`)
+- GFPGAN (Face Restoration)
 - OpenCV, NumPy, Pickle
-- Google Colab (for ease of use)
+- Google Colab (for execution)
 
 ---
 
