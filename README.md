@@ -90,13 +90,6 @@ Watch the full system in action:
 
 ---
 
-## 📦 Dataset
-
-The dataset used in testing is available here:  
-📂 [Download Dataset](https://drive.google.com/file/d/1H5NGV0HPaK_2pntZAqliswWWw_9Kwl5d/view?usp=sharing)
-
----
-
 ## 📌 Notes
 
 - GFPGAN is only used if the detected face resolution is below the defined threshold (default: 128 pixels).
